@@ -220,7 +220,6 @@ jobs:
           CONFIG_boost-static-and-shared-libs=y
           CONFIG_boost-variant-release=y
           EOF
-          EOF
           sed -i 's/^[ \t]*//g' ./.config
           make defconfig
 
